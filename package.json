@@ -1,0 +1,18 @@
+{
+  "name": "Ghost",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "norma-bower": "git://github.com/NewSpring/norma-bower",
+    "norma-copy": "git://github.com/NewSpring/norma-copy",
+    "norma-javascript": "git://github.com/NewSpring/norma-javascript",
+    "norma-markup": "git://github.com/NewSpring/norma-markup",
+    "norma-sass": "git://github.com/NewSpring/norma-sass"
+  }
+}

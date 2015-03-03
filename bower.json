@@ -1,0 +1,6 @@
+{
+  "name": "_ghost-release",
+  "dependencies": {
+    "ghost": "https://github.com/TryGhost/Ghost/releases/download/0.5.9/Ghost-0.5.9.zip"
+  }
+}
