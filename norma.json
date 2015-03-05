@@ -1,6 +1,17 @@
 {
   "name": "NormaGhost",
   "tasks": {
+    "bower": {
+      "endpoint": "NewSpring/norma-bower",
+      "_ghost-release": {
+        "ghost": "https://github.com/TryGhost/Ghost/releases/download/0.5.9/Ghost-0.5.9.zip"
+      }
+    },
+    "copy": {
+      "endpoint": "NewSpring/norma-copy",
+      "src": "_source/test-theme/assets/**/*",
+      "dest": "ghost/content/themes/test-theme/assets"
+    },
     "copy": {
       "endpoint": "NewSpring/norma-copy",
       "src": "_ghost-release/ghost/**/*",
@@ -21,17 +32,6 @@
       "endpoint": "NewSpring/norma-javascript",
       "src": "_source/test-theme/scripts/**/*",
       "dest": "ghost/content/themes/test-theme/assets/js"
-    },
-    "copy": {
-      "endpoint": "NewSpring/norma-copy",
-      "src": "_source/test-theme/assets/**/*",
-      "dest": "ghost/content/themes/test-theme/assets"
-    },
-    "bower": {
-      "endpoint": "NewSpring/norma-bower",
-      "_ghost-release": {
-        "ghost": "https://github.com/TryGhost/Ghost/releases/download/0.5.9/Ghost-0.5.9.zip"
-      }
     }
   }
 }
